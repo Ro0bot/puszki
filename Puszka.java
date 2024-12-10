@@ -2,10 +2,10 @@ public class Puszka {
     String firma;
     String smak;
     int mililitry;
-    int cena;
+    double cena;
     boolean cukier;
 
-    public Puszka(String firma, String smak, int mililitry, int cena, boolean cukier) {
+    public Puszka(String firma, String smak, int mililitry, double cena, boolean cukier) {
         this.firma = firma;
         this.smak = smak;
         this.mililitry = mililitry;
@@ -25,7 +25,7 @@ public class Puszka {
         return mililitry;
     }
 
-    public int getCena() {
+    public double getCena() {
         return cena;
     }
 

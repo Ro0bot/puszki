@@ -3,7 +3,7 @@ public class LimitowanaPuszka extends Puszka {
     String aromat;
     String kolor;
 
-    public LimitowanaPuszka(String firma, String smak, int mililitry, int cena, boolean cukier, String powiazanie, String aromat, String kolor) {
+    public LimitowanaPuszka(String firma, String smak, int mililitry, double cena, boolean cukier, String powiazanie, String aromat, String kolor) {
         super(firma, smak, mililitry, cena, cukier);
         this.powiazanie = powiazanie;
         this.aromat = aromat;

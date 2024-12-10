@@ -6,7 +6,7 @@ public class Main {
         String firma;
         String smak;
         int mililitry;
-        int cena;
+        double cena;
         boolean cukier;
         Puszka puszka;
         String powiazanie;
@@ -25,7 +25,7 @@ public class Main {
                 System.out.println("mililitry");
                 mililitry = sc.nextInt();
                 System.out.println("cena");
-                cena = sc.nextInt();
+                cena = sc.nextDouble();
                 System.out.println("cukier?");
                 cukier = sc.nextBoolean();
                 puszka = new Puszka(firma, smak, mililitry, cena, cukier);
@@ -39,7 +39,7 @@ public class Main {
                 System.out.println("mililitry");
                 mililitry = sc.nextInt();
                 System.out.println("cena");
-                cena = sc.nextInt();
+                cena = sc.nextDouble();
                 System.out.println("cukier?");
                 cukier = sc.nextBoolean();
                 System.out.println("powiązanie");
