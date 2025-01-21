@@ -78,7 +78,7 @@ public class Puszka {
     }
 
     /**
-     * Wypisuje informacje o nowej puszce
+     * Wypisuje informacje o nowej zwykłej puszce
      */
 
     public void nowaPuszka() {
